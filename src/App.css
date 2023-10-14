@@ -1,0 +1,77 @@
+.App {
+
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background-color: lightblue;
+  color: rgb(26, 25, 25);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+/* src/App.css */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 15px;
+  background-color: lightblue;
+  border-radius: 10px;
+  padding: 10px 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav li:hover {
+  background-color: lightblue;
+  color: white;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+
+
+h2 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+a {
+  color: #cf7c98;
+  text-decoration: none;
+}
+
+.About {
+  background-color: lightblue;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.Projects {
+  background-color: lightblue;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.Contact {
+  background-color: lightblue;
+  padding: 20px;
+  margin: 20px 0;
+}
